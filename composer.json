@@ -1,0 +1,55 @@
+{
+    "name": "helio/feature-request",
+    "description": "Feature Request package for DevOption Helio",
+    "keywords": [
+        "devoption",
+        "helio",
+        "feature",
+        "request",
+        "laravel",
+        "api"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DevOption Engineering",
+            "email": "engineering@devoption.io"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/http": "^9.30",
+        "illuminate/support": "^9.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.7",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevOption\\Helio\\FeatureRequest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DevOption\\Helio\\FeatureRequest\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevOption\\Helio\\FeatureRequest\\HelioFeatureRequest"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
