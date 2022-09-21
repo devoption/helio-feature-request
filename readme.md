@@ -1,7 +1,11 @@
 # DevOption - Feature Request
 
-This Laravel package is meant to enable a feature request workflow in DevOption 
-Helio (an Open Source, Software Development Lifecycle Platform).
+This Laravel package is meant to enable a feature request workflow in DevOption
+Helio (an Open Source, Software Development Lifecycle (SDLC) Platform).
+
+After creating a new project, the next step in the SDLC is to begin accepting
+feature requests from the client. This package provides a simple way to do that
+via REST API.
 
 ## Prerequisites
 
