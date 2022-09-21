@@ -1,7 +1,7 @@
 # DevOption - Feature Request
 
 <p align="center">
-![GitHub](https://img.shields.io/github/license/devoption/helio-feature-request?style=for-the-badge)
+[![GitHub license](https://img.shields.io/github/license/devoption/helio-feature-request?label=license&style=for-the-badge)](https://github.com/devoption/helio-feature-request/blob/main/license.md)
 </p>
 
 This Laravel package is meant to enable a feature request workflow in DevOption
